@@ -29,3 +29,17 @@ Ideal for event tracking, monitoring new listings, or building city-wise event d
 
 **Install dependencies**
 pip install gspread pandas oauth2client selenium selenium-stealth webdriver-manager
+
+**Google Sheets Setup**
+1. Create a Google Service Account
+* Go to Google Cloud Console
+* Enable Google Sheets API & Google Drive API
+* Create a Service Account
+* Download the credentials as credentials.json
+
+⚠️ Never commit credentials.json publicly
+
+2. Share Your Google Sheet
+* Open your Google Sheet
+* Share it with the service account email found inside credentials.json
+* Give Editor access
