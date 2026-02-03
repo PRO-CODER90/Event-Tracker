@@ -22,9 +22,9 @@ Ideal for event tracking, monitoring new listings, or building city-wise event d
 6. ChromeDriver (auto-managed)
 
 **Project Structure**
-.
-├── main.py              # Main scraper + Google Sheets sync logic
-├── credentials.json     # Google service account credentials
+
+├── main.py              
+├── credentials.json     
 └── README.md
 
 **Install dependencies**
